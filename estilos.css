@@ -1,0 +1,321 @@
+/* Fondo de la página */
+body {
+    background-color: #f2a6a6; /* Rojo suave */
+    font-family: Arial, sans-serif; /* Fuente estándar para el resto del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Georgia', serif; /* Fuente diferente para el título */
+    font-size: 48px; /* Tamaño grande */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrado */
+    color: #cc0000; /* Color más oscuro para el texto del título */
+    margin-top: 20px;
+}
+
+/* Imagen debajo del título */
+.img-container {
+    text-align: center; /* Centra la imagen */
+    margin: 20px 0;
+}
+
+.img-container img {
+    width: 50%; /* Ajusta el tamaño de la imagen para que no sea ni muy grande ni pequeña */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+
+/* Botón para pasar a la siguiente página */
+.button-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #8b5151; /* Rojo oscuro para el botón */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #533737; /* Cambia el color cuando pasas el mouse por encima */
+}
+/* Subtítulo */
+.subtitle h2 {
+    font-family: 'Verdana', sans-serif; /* Fuente diferente para el subtítulo */
+    font-size: 24px; /* Tamaño más pequeño que el título */
+    color: #990000; /* Color del subtítulo que combina con el título */
+    margin: 20px 0;
+}
+
+/* Contenido */
+.content {
+    margin: 20px;
+    color: #000000; /* Color del texto normal */
+    font-size: 16px; /* Tamaño de texto normal */
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Cuadro para los ingredientes */
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las imágenes */
+    background-color: #f8f8f8; /* Fondo del cuadro de ingredientes */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Cada ingrediente */
+.ingredient {
+    text-align: center; /* Centra el texto bajo la imagen */
+}
+
+.ingredient img {
+    width: 100px; /* Tamaño fijo de la imagen */
+    height: auto; /* Mantiene las proporciones */
+    margin-bottom: 10px;
+}
+
+/* Botón para pasar a la siguiente página */
+.button-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #cc0000; /* Rojo oscuro para el botón */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #a00000; /* Cambia el color cuando pasas el mouse por encima */
+}
+/* Subtítulo */
+.subtitle h2 {
+    font-family: 'Verdana', sans-serif; /* Fuente diferente para el subtítulo */
+    font-size: 24px; /* Tamaño más pequeño que el título */
+    color: #990000; /* Color del subtítulo que combina con el título */
+    margin: 20px 0;
+}
+
+/* Contenido */
+.content {
+    margin: 20px;
+    color: #000000; /* Color del texto normal */
+    font-size: 16px; /* Tamaño de texto normal */
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Cuadro para los ingredientes */
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los ingredientes */
+    background-color: #f8f8f8; /* Fondo del cuadro de ingredientes */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Cada ingrediente */
+.ingredient {
+    text-align: center; /* Centra el texto bajo la imagen */
+    width: 45%; /* Ancho de cada imagen para que se acomoden 2 por fila */
+}
+
+.ingredient img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    max-width: 150px; /* Máximo ancho para las imágenes */
+    margin-bottom: 10px;
+}
+
+/* Botón para pasar a la siguiente página */
+.button-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #cc0000; /* Rojo oscuro para el botón */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #a00000; /* Cambia el color cuando pasas el mouse por encima */
+}
+/* Subtítulo */
+.subtitle h2 {
+    font-family: 'Verdana', sans-serif; /* Fuente diferente para el subtítulo */
+    font-size: 24px; /* Tamaño más pequeño que el título */
+    color: #990000; /* Color del subtítulo que combina con el título */
+    margin: 20px 0;
+}
+
+/* Contenido */
+.content {
+    margin: 20px;
+    color: #000000; /* Color del texto normal */
+    font-size: 16px; /* Tamaño de texto normal */
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Cuadro para los ingredientes */
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los ingredientes */
+    background-color: #f8f8f8; /* Fondo del cuadro de ingredientes */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Cada ingrediente */
+.ingredient {
+    text-align: center; /* Centra el texto bajo la imagen */
+    width: 45%; /* Ancho de cada imagen para que se acomoden 2 por fila */
+}
+
+.ingredient img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    max-width: 150px; /* Máximo ancho para las imágenes */
+    margin-bottom: 10px;
+}
+
+/* Cuadro para los platos */
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los platos */
+    background-color: #f8f8f8; /* Fondo del cuadro de platos */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Cada plato */
+.dish {
+    text-align: center; /* Centra el texto bajo la imagen */
+    width: 45%; /* Ancho de cada imagen para que se acomoden 2 por fila */
+}
+
+.dish img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    max-width: 150px; /* Máximo ancho para las imágenes */
+    margin-bottom: 10px;
+}
+
+/* Botón para pasar a la siguiente página */
+.button-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #cc0000; /* Rojo oscuro para el botón */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #a00000; /* Cambia el color cuando pasas el mouse por encima */
+}
+/* Subtítulo */
+.subtitle h2 {
+    font-family: 'Verdana', sans-serif; /* Fuente diferente para el subtítulo */
+    font-size: 24px; /* Tamaño más pequeño que el título */
+    color: #990000; /* Color del subtítulo que combina con el título */
+    margin: 20px 0;
+}
+
+/* Imagen a la derecha del subtítulo */
+.image-right img {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    max-width: 300px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene las proporciones */
+    margin-left: 20px; /* Espacio a la izquierda de la imagen */
+    display: block; /* Muestra la imagen como un bloque */
+}
+
+/* Contenido */
+.content {
+    margin: 20px;
+    color: #000000; /* Color del texto normal */
+    font-size: 16px; /* Tamaño de texto normal */
+}
+
+/* Cuadro para las secciones de texto e imagen */
+.box {
+    background-color: #f8f8f8; /* Fondo del cuadro */
+    padding: 20px; /* Espaciado interno del cuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio debajo del cuadro */
+}
+
+/* Texto e imagen juntos */
+.text-image {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1; /* Ocupa el espacio restante */
+    margin-right: 20px; /* Espacio a la derecha del texto */
+}
+
+.image {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+.image img {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    max-width: 300px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene las proporciones */
+}
+
+/* Lista de beneficios */
+ul {
+    list-style-type: disc; /* Tipo de lista con viñetas */
+    margin: 20px 0; /* Espacio arriba y abajo de la lista */
+    padding-left: 20px; /* Espacio a la izquierda de la lista */
+}
+
+/* Botón para regresar a la primera página */
+.button-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #cc0000; /* Rojo oscuro para el botón */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #a00000; /* Cambia el color cuando pasas el mouse por encima */
+}
